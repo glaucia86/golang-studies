@@ -23,6 +23,7 @@ I will be listing here some important links and resources that will direct you t
 
 - ✅ **[Official Documentation - Golang](http://www.golangbr.org/doc/)**
 - ✅ **[Azure for Golang Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=javascript-0000-gllemos)**
+- ✅ **[Debugging Golang in Visual Studio Code](https://github.com/golang/vscode-go/blob/master/docs/debugging.md)**
 
 ## ❓ I have questions... What do I do?! 
 
