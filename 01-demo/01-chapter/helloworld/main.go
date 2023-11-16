@@ -1,5 +1,5 @@
 /**
- * file: main.go
+ * file: helloworld/main.go
  * description: file responsible for running the main application
  * data: 11/15/2023
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
