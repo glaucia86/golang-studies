@@ -13,7 +13,7 @@ Repository created to store all the studies and projects developed in Golang.
 
 ## 📚 Studies Guide 
 
-- **[Book: The Go Programming Language](https://shorturl.at/bjwyU)**
+- **[Aprenda Golang do Zero! Desenvolva uma Aplicação Completa - Udemy Course](https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa)**
   - **[demo-01](./01-demo/README.md)**
 
 

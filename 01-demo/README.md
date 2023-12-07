@@ -1,8 +1,8 @@
-# Book: The Go Programming Language 
+# Udemy Course: Aprenda Golang do Zero! Desenvolva uma Aplicação Completa - Udemy Course
 
-Here you will find all the studies and projects developed in Golang during my reading of the book: **[The Go Programming Language](https://shorturl.at/bjwyU)**
+Here you will find all the studies and projects developed in the Golang course `Aprenda Golang do Zero! Desenvolva uma Aplicação Completa - Udemy Course`.
 
-> source of the book **[here](https://github.com/adonovan/gopl.io/)**
+> source of the course **[here](https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa)**
 
 ## How to run the projects?
 
@@ -28,22 +28,45 @@ And if you want to see the compiled project, you can use the command:
 
 ## What I studied in this book?
 
-- [x] Preface
-  - [x] The Origins of Go
-  - [x] The Go Project
-  - [x] Organization of the Book
-  - [x] Where to Find More Information
-  - [x] Acknowledgments
+- [x] Seção 01
+  - [x] Boas Vindas!
+  - [x] Instalando Go e Visual Studio Code
+  - [x] Escrevendo seu primeiro Hello World!
 
-- [ ] 1. Tutorial
-  - [x] 1.1 Hello, World 
-  - [ ] 1.2 Command-Line Arguments
-  - [ ] 1.3 Finding Duplicate Lines
-  - [ ] 1.4 Animated GIFs
-  - [ ] 1.5 Fetching a URL
-  - [ ] 1.6 Fetching URLs Concurrently
-  - [ ] 1.7 A Web Server
-  - [ ] 1.8 Loose Ends
+- [ ] Seção 02: Fundamentos da Linguagem
+  - [ ] Pacotes
+  - [ ] Pacotes Externos
+  - [ ] Variáveis
+  - [ ] Tipos de Dados
+  - [ ] Funções
+  - [ ] Operadores
+  - [ ] Structs
+  - [ ] Herança
+  - [ ] Ponteiros
+  - [ ] Arrays e Slices
+  - [ ] Arrays Internos
+  - [ ] Maps
+  - [ ] Estruturas de Controle
+  - [ ] Switch
+  - [ ] Loops
+  - [ ] Funções com Retorno Nomeado
+  - [ ] Funções Variáticas
+  - [ ] Funções Anônimas
+  - [ ] Funções Recursivas
+  - [ ] Defer
+  - [ ] Panic e Recover
+  - [ ] Função Closure
+  - [ ] Funções com Ponteiros
+  - [ ] Função Init
+  - [ ] Métodos
+  - [ ] Interfaces
+  - [ ] Interfaces como Tipo Genérico
 
+- [ ] Seção 03: Mini Aplicação de Linha de Comando
+  - [ ] 
+  - [ ]   
+  - [ ] 
+  - [ ]
 
-- [ ] 2. Program Structure
+  
+
