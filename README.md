@@ -14,7 +14,9 @@ Repository created to store all the studies and projects developed in Golang.
 ## 📚 Studies Guide 
 
 - **[Aprenda Golang do Zero! Desenvolva uma Aplicação Completa - Udemy Course](https://www.udemy.com/course/aprenda-golang-do-zero-desenvolva-uma-aplicacao-completa)**
-  - **[demo-01](./01-demo/README.md)**
+  - **[01-study](./01-study/README.md)**
+- **[Book: Let's Go Professional Package by Alex Edwards](https://lets-go.alexedwards.net/#packages)**
+  - **[02-study](./02-study/README.md)**
 
 
 ## ❗️Important Resources
