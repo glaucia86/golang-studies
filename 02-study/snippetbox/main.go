@@ -1,7 +1,7 @@
 /**
  * file: main.go
  * description: file responsible for running the application.
- * data: 22/12/2023
+ * data: 12/22/2023
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
@@ -16,9 +16,19 @@ func home(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello from Snippetbox"))
 }
 
+func snippetView(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Display a specific snippet...."))
+}
+
+func snippetCreate(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("Create a new snippet"))
+}
+
 func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", home)
+	mux.HandleFunc("/snippet/view", snippetView)
+	mux.HandleFunc("/snippet/create", snippetCreate)
 
 	log.Print("Starting the server on port...: 4000")
 
