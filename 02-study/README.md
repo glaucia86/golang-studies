@@ -26,7 +26,28 @@ And if you want to see the compiled project, you can use the command:
 
 ## What I studied in this book?
 
-- [x] Seção 01
-  - [x] Boas Vindas!
-  - [x] Instalando Go e Visual Studio Code
-  - [x] Escrevendo seu primeiro Hello World!
+- [x] Introduction
+  - [x] conventions
+  - [x] About the author
+  - [x] Copyright and disclaimer
+  - [x] Prerequisites
+    - [x] Background knowledge
+    - [x] Go 1.21
+    - [x] Other Software
+- [ ] Foundations
+  - [x] Project setup and creating a module
+    - [x] Creating a module
+    - [x] Hello World!
+    - [x] Additional Information
+      - [x] Module paths for downloadable packages
+  - [ ] Web Application basics
+    - [x] Additional Information
+      - [x] Network addresses
+      - [x] Using `go run`
+  - [ ] Routing requests
+  - [ ] Customizing HTTP headers
+  - [ ] URL query strings
+  - [ ] Project structure and organization
+  - [ ] HTML templating and inheritance
+  - [ ] Serving static files
+  - [ ] The `http.Handler` interface 
