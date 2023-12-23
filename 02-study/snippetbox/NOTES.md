@@ -12,3 +12,7 @@ go mod init github.com/yourusername/snippetbox
 
 Isso irá criar um arquivo `go.mod` na pasta do projeto. Esse arquivo é responsável por gerenciar as dependências do projeto.
 
+## Lista de `Constants`
+
+Podemos consultar a lista de `constants` disponíveis no pacote `net/http`, através do link: **[Constants](https://pkg.go.dev/net/http#pkg-constants)**
+

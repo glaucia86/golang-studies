@@ -40,14 +40,36 @@ And if you want to see the compiled project, you can use the command:
     - [x] Hello World!
     - [x] Additional Information
       - [x] Module paths for downloadable packages
-  - [ ] Web Application basics
+  - [x] Web Application basics
     - [x] Additional Information
       - [x] Network addresses
       - [x] Using `go run`
-  - [ ] Routing requests
-  - [ ] Customizing HTTP headers
-  - [ ] URL query strings
+  - [x] Routing requests
+    - [x] Fixed path and subtree patterns
+    - [x] Restricting the root url pattern
+    - [x] Additional informations
+      - [x] Servermux features and quirks
+      - [x] Host name matching
+      - [x] The default servemux
+      - [x] What about RESTful routing?
+  - [x] Customizing HTTP headers
+    - [x] HTTP status codes
+    - [x] Customizing headers
+    - [x] The `http.Error` shortcut
+    - [x] The `net/http` constants
+    - [x] Additional information
+      - [x] System generated headers and content sniffing
+      - [x] Manipulating the header map
+      - [x] Header canonicalization
+      - [x] Suppressing system-generated headers
+  - [x] URL query strings
+    - [x] The `io.writer` interface
+    - [ ] Additional information
+      - [ ] **[Golang Interfaces Explained](https://www.alexedwards.net/blog/interfaces-explained)**
   - [ ] Project structure and organization
+    - [ ] Refactoring your existing code
+    - [ ] Additional information
+      - [ ] The internal directory
   - [ ] HTML templating and inheritance
   - [ ] Serving static files
   - [ ] The `http.Handler` interface 
