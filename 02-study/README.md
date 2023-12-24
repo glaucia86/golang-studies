@@ -66,10 +66,21 @@ And if you want to see the compiled project, you can use the command:
     - [x] The `io.writer` interface
     - [x] Additional information
       - [x] **[Golang Interfaces Explained](https://www.alexedwards.net/blog/interfaces-explained)**
-  - [ ] Project structure and organization
-    - [ ] Refactoring your existing code
-    - [ ] Additional information
-      - [ ] The internal directory
+  - [x] Project structure and organization
+    - [x] Refactoring your existing code
+    - [x] Additional information
+      - [x] The internal directory
   - [ ] HTML templating and inheritance
+    - [ ] Template composition
+    - [ ] Embedding partials
+    - [ ] Additional information
+      - [ ] The block action
   - [ ] Serving static files
+    - [ ] The `http.FileServer` handler
+    - [ ] Using the static files
+    - [ ] Additional information
+      - [ ] File server features and functions
+      - [ ] Performance
+      - [ ] Serving single files
+      - [ ] Disabling directory listings
   - [ ] The `http.Handler` interface 
