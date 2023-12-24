@@ -34,7 +34,7 @@ And if you want to see the compiled project, you can use the command:
     - [x] Background knowledge
     - [x] Go 1.21
     - [x] Other Software
-- [ ] Foundations
+- [x] Foundations
   - [x] Project setup and creating a module
     - [x] Creating a module
     - [x] Hello World!
@@ -64,8 +64,8 @@ And if you want to see the compiled project, you can use the command:
       - [x] Suppressing system-generated headers
   - [x] URL query strings
     - [x] The `io.writer` interface
-    - [ ] Additional information
-      - [ ] **[Golang Interfaces Explained](https://www.alexedwards.net/blog/interfaces-explained)**
+    - [x] Additional information
+      - [x] **[Golang Interfaces Explained](https://www.alexedwards.net/blog/interfaces-explained)**
   - [ ] Project structure and organization
     - [ ] Refactoring your existing code
     - [ ] Additional information
