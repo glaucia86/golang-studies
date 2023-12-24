@@ -14,6 +14,12 @@ import (
 
 func main() {
 	mux := http.NewServeMux()
+
+	// Configuração do FileServer para servir arquivos estáticos.
+	fileServer := http.FileServer(http.Dir("./ui/static/"))
+	mux.Handle("/static/", http.StripPrefix("/static", fileServer))
+
+	// Demais rotas da aplicação
 	mux.HandleFunc("/", home)
 	mux.HandleFunc("/snippet/view", snippetView)
 	mux.HandleFunc("/snippet/create", snippetCreate)
