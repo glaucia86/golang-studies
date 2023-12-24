@@ -14,8 +14,8 @@ type Animal struct {
 	Age  uint
 }
 
-func (animal Animal) String() string {
-	return fmt.Sprintf("%v (%d years)", animal.Name, animal.Age)
+func (a Animal) String() string {
+	return fmt.Sprintf("%v (%d years)", a.Name, a.Age)
 }
 
 func main() {

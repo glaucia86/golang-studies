@@ -18,14 +18,14 @@ type Book struct {
 	Author string
 }
 
-func (book Book) String() string {
-	return fmt.Sprintf("Book: %s - %s", book.Title, book.Author)
+func (b Book) String() string {
+	return fmt.Sprintf("Book: %s - %s", b.Title, b.Author)
 }
 
 type Count int
 
-func (count Count) String() string {
-	return strconv.Itoa(int(count))
+func (c Count) String() string {
+	return strconv.Itoa(int(c))
 }
 
 func WriteLog(s fmt.Stringer) {

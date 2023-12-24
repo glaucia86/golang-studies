@@ -20,8 +20,8 @@ type Customer struct {
 	Age  int
 }
 
-func (customer *Customer) WriteJSON(wj io.Writer) error {
-	js, err := json.Marshal(customer)
+func (c *Customer) WriteJSON(wj io.Writer) error {
+	js, err := json.Marshal(c)
 	if err != nil {
 		return err
 	}
