@@ -34,3 +34,43 @@ Depois, basta acessar o endereço: **[http://localhost:4000](http://localhost:40
 
 **[Code Developed - commit](https://github.com/glaucia86/golang-studies/commit/8fb8ba757a301559576fda3056697f09db028913)**
 
+## Significado de `http.Handler` em Go
+
+`http.Handler` é uma interface que define o método `ServeHTTP` que recebe um `http.ResponseWriter` e um `*http.Request` como argumentos.
+
+Exemplo:
+
+```go
+type Handler interface {
+    ServeHTTP(ResponseWriter, *Request)
+}
+```
+
+Mais detalhes, acesse o link: **[http.Handler](https://pkg.go.dev/net/http#Handler)**
+
+## Significado de `http.ListenAndServe` em Go
+
+`http.ListenAndServe` é uma função que recebe dois argumentos: um endereço de rede e um `http.Handler` e retorna um erro.
+
+Exemplo:
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+)
+
+func main() {
+  // Hello World, the web server
+
+  helloHandler := func(w http.ResponseWriter, req *http.Request) {
+    io.WriteString(w, "hello, world!\n")
+  }
+
+  http.HandleFunc("/hello", helloHandler)
+  log.Fatal(http.ListenAndServe(":8080", nil))
+}
+```

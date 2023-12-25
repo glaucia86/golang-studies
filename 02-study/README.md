@@ -83,10 +83,10 @@ And if you want to see the compiled project, you can use the command:
       - [x] Performance
       - [x] Serving single files
       - [x] Disabling directory listings
-  - [ ] The `http.Handler` interface 
-    - [ ] Handler functions
-    - [ ] Chaining handlers
-    - [ ] Requests are handled concurrently
+  - [x] The `http.Handler` interface 
+    - [x] Handler functions
+    - [x] Chaining handlers
+    - [x] Requests are handled concurrently
 - [ ] Configuration
   - [ ] Managing configuration settings
     - [ ] Command-line flags
