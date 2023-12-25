@@ -20,7 +20,8 @@ func main() {
 	mux.Handle("/static/", http.StripPrefix("/static", fileServer))
 
 	// Demais rotas da aplicação
-	mux.HandleFunc("/", home)
+	//mux.HandleFunc("/", home)
+	mux.Handle("/", http.HandlerFunc(home))
 	mux.HandleFunc("/snippet/view", snippetView)
 	mux.HandleFunc("/snippet/create", snippetCreate)
 
