@@ -70,17 +70,20 @@ And if you want to see the compiled project, you can use the command:
     - [x] Refactoring your existing code
     - [x] Additional information
       - [x] The internal directory
-  - [ ] HTML templating and inheritance
-    - [ ] Template composition
-    - [ ] Embedding partials
-    - [ ] Additional information
-      - [ ] The block action
-  - [ ] Serving static files
-    - [ ] The `http.FileServer` handler
-    - [ ] Using the static files
-    - [ ] Additional information
-      - [ ] File server features and functions
-      - [ ] Performance
-      - [ ] Serving single files
-      - [ ] Disabling directory listings
+  - [x] HTML templating and inheritance
+    - [x] Template composition
+    - [x] Embedding partials
+    - [x] Additional information
+      - [x] The block action
+  - [x] Serving static files
+    - [x] The `http.FileServer` handler
+    - [x] Using the static files
+    - [x] Additional information
+      - [x] File server features and functions
+      - [x] Performance
+      - [x] Serving single files
+      - [x] Disabling directory listings
   - [ ] The `http.Handler` interface 
+    - [ ] Handler functions
+    - [ ] Chaining handlers
+    - [ ] Requests are handled concurrently
