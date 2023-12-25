@@ -87,3 +87,34 @@ And if you want to see the compiled project, you can use the command:
     - [ ] Handler functions
     - [ ] Chaining handlers
     - [ ] Requests are handled concurrently
+- [ ] Configuration
+  - [ ] Managing configuration settings
+    - [ ] Command-line flags
+    - [ ] Default values
+    - [ ] Type conversions
+    - [ ] Automated help
+    - [ ] Additional information
+      - [ ] Environment variables
+      - [ ] Boolean flags
+      - [ ] Pre-existing variables
+  - [ ] Structured logging
+    - [ ] Creating a structured logger
+    - [ ] Using a structured logger
+    - [ ] Adding structured logging to our application
+    - [ ] Additional information
+      - [ ] Safer attributes
+      - [ ] JSON formatted logs
+      - [ ] Minimum log level
+      - [ ] Caller location
+      - [ ] Decoupled logging
+      - [ ] Concurrent logging
+  - [ ] Dependency injection
+    - [ ] Adding a deliberate error
+    - [ ] Additional information
+      - [ ] Closures for dependency injection
+  - [ ] Centralized error handling
+    - [ ] Revert the deliberate error
+    - [ ] Additional information
+      - [ ] Stack traces
+  - [ ] Isolating the application routes
+- [ ] Database-driven responses
