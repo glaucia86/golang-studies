@@ -108,13 +108,13 @@ And if you want to see the compiled project, you can use the command:
       - [x] Caller location
       - [x] Decoupled logging
       - [x] Concurrent logging
-  - [ ] Dependency injection
-    - [ ] Adding a deliberate error
-    - [ ] Additional information
-      - [ ] Closures for dependency injection
-  - [ ] Centralized error handling
-    - [ ] Revert the deliberate error
-    - [ ] Additional information
-      - [ ] Stack traces
-  - [ ] Isolating the application routes
+  - [x] Dependency injection
+    - [x] Adding a deliberate error
+    - [x] Additional information
+      - [x] Closures for dependency injection
+  - [x] Centralized error handling
+    - [x] Revert the deliberate error
+    - [x] Additional information
+      - [x] Stack traces
+  - [x] Isolating the application routes
 - [ ] Database-driven responses

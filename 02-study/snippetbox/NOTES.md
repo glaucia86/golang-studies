@@ -102,3 +102,7 @@ func main() {
   log.Fatal(http.ListenAndServe(os.Getenv("PORT"), nil))
 }
 ```
+
+## Exemplo de Closures for dependency injection
+
+> observação: seguir o exemplo feito **[AQUI](https://gist.github.com/alexedwards/5cd712192b4831058b21)** e **[AQUI](https://www.alexedwards.net/blog/organising-database-access)**
