@@ -1,18 +1,24 @@
 /**
  * file: cmd/web/main.go
  * description: file responsible for running the application.
- * data: 12/24/2023
+ * data: 12/27/2023
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
 package main
 
 import (
+	"flag"
 	"log"
 	"net/http"
 )
 
 func main() {
+
+	addr := flag.String("addr", ":4000", "HTTP network address")
+
+	flag.Parse()
+
 	mux := http.NewServeMux()
 
 	// Configuração do FileServer para servir arquivos estáticos.
@@ -25,8 +31,8 @@ func main() {
 	mux.HandleFunc("/snippet/view", snippetView)
 	mux.HandleFunc("/snippet/create", snippetCreate)
 
-	log.Print("Starting the server on port...: 4000")
+	log.Printf("Starting the server on %s", *addr)
 
-	err := http.ListenAndServe(":4000", mux)
+	err := http.ListenAndServe(*addr, mux)
 	log.Fatal(err)
 }
