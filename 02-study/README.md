@@ -88,26 +88,26 @@ And if you want to see the compiled project, you can use the command:
     - [x] Chaining handlers
     - [x] Requests are handled concurrently
 - [ ] Configuration
-  - [ ] Managing configuration settings
-    - [ ] Command-line flags
-    - [ ] Default values
-    - [ ] Type conversions
-    - [ ] Automated help
-    - [ ] Additional information
-      - [ ] Environment variables
-      - [ ] Boolean flags
-      - [ ] Pre-existing variables
-  - [ ] Structured logging
-    - [ ] Creating a structured logger
-    - [ ] Using a structured logger
-    - [ ] Adding structured logging to our application
-    - [ ] Additional information
-      - [ ] Safer attributes
-      - [ ] JSON formatted logs
-      - [ ] Minimum log level
-      - [ ] Caller location
-      - [ ] Decoupled logging
-      - [ ] Concurrent logging
+  - [x] Managing configuration settings
+    - [x] Command-line flags
+    - [x] Default values
+    - [x] Type conversions
+    - [x] Automated help
+    - [x] Additional information
+      - [x] Environment variables
+      - [x] Boolean flags
+      - [x] Pre-existing variables
+  - [x] Structured logging
+    - [x] Creating a structured logger
+    - [x] Using a structured logger
+    - [x] Adding structured logging to our application
+    - [x] Additional information
+      - [x] Safer attributes
+      - [x] JSON formatted logs
+      - [x] Minimum log level
+      - [x] Caller location
+      - [x] Decoupled logging
+      - [x] Concurrent logging
   - [ ] Dependency injection
     - [ ] Adding a deliberate error
     - [ ] Additional information
