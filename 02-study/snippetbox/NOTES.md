@@ -74,3 +74,31 @@ func main() {
   log.Fatal(http.ListenAndServe(":4000", nil))
 }
 ```
+
+## Lidando com environment variables em Go
+
+Para lidar com environment variables em Go, basta importar o pacote `os` e utilizar a função `os.Getenv()`.
+
+Exemplo:
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+    "os"
+)
+
+func main() {
+  // Hello World, the web server
+
+  helloHandler := func(w http.ResponseWriter, req *http.Request) {
+    io.WriteString(w, "hello, world!\n")
+  }
+
+  http.HandleFunc("/hello", helloHandler)
+  log.Fatal(http.ListenAndServe(os.Getenv("PORT"), nil))
+}
+```
