@@ -1,6 +1,6 @@
 /**
  * file: cmd/web/helpers
- * description: file responsible for running the application.
+ * description: file responsible for handling the errors of the application.
  * data: 12/27/2023
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
