@@ -14,22 +14,22 @@
   - [x] Demo: Your First Go Program
   - [x] Course Plan
   - [x] Summary
-- [ ] Variables and Simple Data Types
-  - [ ] Introduction
-  - [ ] Simple Data Types
-  - [ ] The String Type
-  - [ ] Numeric Types
-  - [ ] Boolean Types
-  - [ ] Error Types
-  - [ ] Finding Documentation for Built-in Types
-  - [ ] Declaring Variables
-  - [ ] Type Conversions
-  - [ ] Demo: Using Simple Types and Type Conversions
-  - [ ] Common Arithmetic Operators
-  - [ ] Common Comparison Operators
-  - [ ] Demo: Using Arithmetic and Comparison Operators
-  - [ ] Constants, Constant Expressions, and Iota
-  - [ ] Demo: Constants, Constant Expressions, and Iota
-  - [ ] Pointers
-  - [ ] Demo: Creating and Using Pointers
-  - [ ] Summary
+- [x] Variables and Simple Data Types
+  - [x] Introduction
+  - [x] Simple Data Types
+  - [x] The String Type
+  - [x] Numeric Types
+  - [x] Boolean Types
+  - [x] Error Types
+  - [x] Finding Documentation for Built-in Types
+  - [x] Declaring Variables
+  - [x] Type Conversions
+  - [x] Demo: Using Simple Types and Type Conversions
+  - [x] Common Arithmetic Operators
+  - [x] Common Comparison Operators
+  - [x] Demo: Using Arithmetic and Comparison Operators
+  - [x] Constants, Constant Expressions, and Iota
+  - [x] Demo: Constants, Constant Expressions, and Iota
+  - [x] Pointers
+  - [x] Demo: Creating and Using Pointers
+  - [x] Summary
