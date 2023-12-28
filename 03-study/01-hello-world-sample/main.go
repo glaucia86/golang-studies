@@ -5,6 +5,8 @@
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
+// go.mod file should be present in the workspace folder
+
 package main
 
 import "fmt"
