@@ -17,6 +17,8 @@ Repository created to store all the studies and projects developed in Golang.
   - **[01-study](./01-study/README.md)**
 - **[Book: Let's Go Professional Package by Alex Edwards](https://lets-go.alexedwards.net/#packages)**
   - **[02-study](./02-study/README.md)**
+- **[Course: Go Fundamentals by Mike Van Sickle](https://app.pluralsight.com/library/courses/fundamentals-go/table-of-contents)**
+  - **[03-study](./03-study/README.md)**
 
 
 ## ❗️Important Resources
