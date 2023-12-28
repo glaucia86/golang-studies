@@ -33,3 +33,27 @@
   - [x] Pointers
   - [x] Demo: Creating and Using Pointers
   - [x] Summary
+- [ ] Creating and Debuggin Programs
+  - [ ] Introduction
+  - [ ] Concept: Command-line interfaces
+  - [ ] CLI Tools
+  - [ ] Demo: Building a CLI Application
+  - [ ] Concept: Web Services
+  - [ ] Demo: Building a Web Service
+  - [ ] Demo: Debugging a Program
+  - [ ] Summary
+- [ ] Aggregate Data Types
+  - [ ] Introduction
+  - [ ] Concept: Array Types
+  - [ ] Creating and Using Arrays
+  - [ ] Demo: Arrays
+  - [ ] Concept: Slice Types
+  - [ ] Creating and Using Slices
+  - [ ] Demo: Slices
+  - [ ] Concept: Map Types
+  - [ ] Creating and Using Maps
+  - [ ] Demo: Maps
+  - [ ] Concept: Struct Types
+  - [ ] Creating and Using Structs
+  - [ ] Demo: Structs
+  - [ ] Summary
