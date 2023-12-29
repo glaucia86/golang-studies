@@ -9,7 +9,7 @@ To run the projects, you need to have the Go installed on your machine. If you d
 After installing Go, you can run the projects using the command:
 
 ```bash
-go run <project-name>.go
+go run ./cmd/web
 ```
 
 If you want to compile the project, you can use the command:
