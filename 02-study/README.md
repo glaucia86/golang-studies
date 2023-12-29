@@ -118,3 +118,39 @@ And if you want to see the compiled project, you can use the command:
       - [x] Stack traces
   - [x] Isolating the application routes
 - [ ] Database-driven responses
+  - [ ] Setting up MySQL
+    - [ ] Scaffolding the database
+    - [ ] Creating a new user
+    - [ ] Test the new user
+  - [ ] Installing a database driver
+  - [ ] Modules and reproducible builds
+    - [ ] Additional information
+      - [ ] Upgrading packages
+      - [ ] Removing unused packages
+  - [ ] Creating a database connection pool
+    - [ ] Using it in our web application
+    - [ ] Testing a connection
+  - [ ] Designing a database model
+    - [ ] Using the `SnippetModel`
+    - [ ] Additional Information
+      - [ ] Benefits of this structure
+  - [ ] Executing SQL statements
+    - [ ] Executing the query
+    - [ ] Using the model in our handlers
+    - [ ] Additional information
+      - [ ] Placeholder parameters
+  - [ ] Single-record SQL queries
+    - [ ] Using the model in our handlers
+    - [ ] Additional information
+      - [ ] Checking for specific errors
+      - [ ] Shorthand single-record queries
+  - [ ] Multiple-record SQL queries
+    - [ ] Using the model in our handlers
+  - [ ] Transactions and other details
+    - [ ] The `database/sql` package
+    - [ ] Verbosity
+    - [ ] Managing null values
+    - [ ] Working with transactions
+    - [ ] Prepared statements
+- [ ] Dynamic HTML templates
+  
