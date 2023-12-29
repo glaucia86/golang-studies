@@ -121,3 +121,4 @@ E depois, entrar com os dados de usuário e senha.
 sudo mysql -u root -p
 ```
 
+Estaremos usando o driver do MySQL para Go: **[mysql](https://pkg.go.dev/github.com/go-sql-driver/mysql)**
