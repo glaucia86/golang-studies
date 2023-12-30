@@ -1,0 +1,9 @@
+Coffee
+Espresso
+Cappuccino
+
+Hot Tea
+Chai Tea
+Chai Latte
+
+Hot Chocolate

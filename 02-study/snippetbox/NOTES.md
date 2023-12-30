@@ -106,3 +106,19 @@ func main() {
 ## Exemplo de Closures for dependency injection
 
 > observação: seguir o exemplo feito **[AQUI](https://gist.github.com/alexedwards/5cd712192b4831058b21)** e **[AQUI](https://www.alexedwards.net/blog/organising-database-access)**
+
+## How to execute MySQL at WSL2?
+
+Para executar o MySQL no WSL2, basta executar o seguinte comando:
+
+```bash
+sudo service mysql start
+```
+
+E depois, entrar com os dados de usuário e senha.
+
+```bash
+sudo mysql -u root -p
+```
+
+Estaremos usando o driver do MySQL para Go: **[mysql](https://pkg.go.dev/github.com/go-sql-driver/mysql)**

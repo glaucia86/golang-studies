@@ -12,10 +12,22 @@ After installing Go, you can run the projects using the command:
 go run ./cmd/web
 ```
 
+To download the dependencies of the project, you can use the command:
+
+```bash
+go mod download
+```
+
 If you want to compile the project, you can use the command:
 
 ```bash
 go build <project-name>.go
+```
+
+But if you want to upgrade the dependencies of the project, you can use the command: `u` to upgrade the dependencies.
+
+```bash
+go get -u github.com/foo/bar
 ```
 
 And if you want to see the compiled project, you can use the command:
