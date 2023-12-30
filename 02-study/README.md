@@ -118,15 +118,15 @@ And if you want to see the compiled project, you can use the command:
       - [x] Stack traces
   - [x] Isolating the application routes
 - [ ] Database-driven responses
-  - [ ] Setting up MySQL
-    - [ ] Scaffolding the database
-    - [ ] Creating a new user
-    - [ ] Test the new user
-  - [ ] Installing a database driver
-  - [ ] Modules and reproducible builds
-    - [ ] Additional information
-      - [ ] Upgrading packages
-      - [ ] Removing unused packages
+  - [x] Setting up MySQL
+    - [x] Scaffolding the database
+    - [x] Creating a new user
+    - [x] Test the new user
+  - [x] Installing a database driver
+  - [x] Modules and reproducible builds
+    - [x] Additional information
+      - [x] Upgrading packages
+      - [x] Removing unused packages
   - [ ] Creating a database connection pool
     - [ ] Using it in our web application
     - [ ] Testing a connection
