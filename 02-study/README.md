@@ -130,11 +130,11 @@ And if you want to see the compiled project, you can use the command:
       - [x] Stack traces
   - [x] Isolating the application routes
 - [ ] Database-driven responses
-  - [ ] Setting up MySQL
-    - [ ] Scaffolding the database
-    - [ ] Creating a new user
-    - [ ] Test the new user
-  - [ ] Installing a database driver
+  - [x] Setting up MySQL
+    - [x] Scaffolding the database
+    - [x] Creating a new user
+    - [x] Test the new user
+  - [x] Installing a database driver
   - [ ] Modules and reproducible builds
     - [ ] Additional information
       - [ ] Upgrading packages
