@@ -33,15 +33,15 @@
   - [x] Pointers
   - [x] Demo: Creating and Using Pointers
   - [x] Summary
-- [ ] Creating and Debugging Programs
-  - [ ] Introduction
-  - [ ] Concept: Command-line interfaces
-  - [ ] CLI Tools
-  - [ ] Demo: Building a CLI Application
-  - [ ] Concept: Web Services
-  - [ ] Demo: Building a Web Service
-  - [ ] Demo: Debugging a Program
-  - [ ] Summary
+- [x] Creating and Debugging Programs
+  - [x] Introduction
+  - [x] Concept: Command-line interfaces
+  - [x] CLI Tools
+  - [x] Demo: Building a CLI Application
+  - [x] Concept: Web Services
+  - [x] Demo: Building a Web Service
+  - [x] Demo: Debugging a Program
+  - [x] Summary
 - [ ] Aggregate Data Types
   - [ ] Introduction
   - [ ] Concept: Array Types

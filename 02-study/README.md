@@ -135,10 +135,17 @@ And if you want to see the compiled project, you can use the command:
     - [x] Creating a new user
     - [x] Test the new user
   - [x] Installing a database driver
+<<<<<<< HEAD
   - [ ] Modules and reproducible builds
     - [ ] Additional information
       - [ ] Upgrading packages
       - [ ] Removing unused packages
+=======
+  - [x] Modules and reproducible builds
+    - [x] Additional information
+      - [x] Upgrading packages
+      - [x] Removing unused packages
+>>>>>>> origin/main
   - [ ] Creating a database connection pool
     - [ ] Using it in our web application
     - [ ] Testing a connection
