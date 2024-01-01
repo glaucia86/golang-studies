@@ -42,4 +42,9 @@ const (
 )
 ```
 
+## CLI Tools in Standard Library
 
+- `os`: Operating system functionality
+  - `stdin`, `stdout`, `stderr`
+- `fmt`: Formatting and printing
+  - `Scan*`, `Print*`, `Sprint*`, `Fprint*`

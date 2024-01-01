@@ -33,7 +33,7 @@
   - [x] Pointers
   - [x] Demo: Creating and Using Pointers
   - [x] Summary
-- [ ] Creating and Debuggin Programs
+- [ ] Creating and Debugging Programs
   - [ ] Introduction
   - [ ] Concept: Command-line interfaces
   - [ ] CLI Tools
