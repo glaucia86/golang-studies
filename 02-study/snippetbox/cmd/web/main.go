@@ -13,12 +13,13 @@ import (
 	"log/slog"
 	"net/http"
 	"os"
-
+	"github.com/glaucia86/snippetbox/internal/models"
 	_ "github.com/go-sql-driver/mysql"
 )
 
 type application struct {
 	logger *slog.Logger
+	snippets *models.SnippetModel
 }
 
 func main() {
@@ -39,6 +40,7 @@ func main() {
 
 	app := &application{
 		logger: logger,
+		snippets: &models.SnippetModel{DB: db},
 	}
 
 	logger.Info("Starting the server on port", "addr", *addr)
