@@ -139,13 +139,13 @@ And if you want to see the compiled project, you can use the command:
     - [x] Additional information
       - [x] Upgrading packages
       - [x] Removing unused packages
-  - [ ] Creating a database connection pool
-    - [ ] Using it in our web application
-    - [ ] Testing a connection
-  - [ ] Designing a database model
-    - [ ] Using the `SnippetModel`
-    - [ ] Additional Information
-      - [ ] Benefits of this structure
+  - [x] Creating a database connection pool
+    - [x] Using it in our web application
+    - [x] Testing a connection
+  - [x] Designing a database model
+    - [x] Using the `SnippetModel`
+    - [x] Additional Information
+      - [x] Benefits of this structure
   - [ ] Executing SQL statements
     - [ ] Executing the query
     - [ ] Using the model in our handlers
