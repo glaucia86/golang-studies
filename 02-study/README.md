@@ -146,16 +146,16 @@ And if you want to see the compiled project, you can use the command:
     - [x] Using the `SnippetModel`
     - [x] Additional Information
       - [x] Benefits of this structure
-  - [ ] Executing SQL statements
-    - [ ] Executing the query
-    - [ ] Using the model in our handlers
-    - [ ] Additional information
-      - [ ] Placeholder parameters
-  - [ ] Single-record SQL queries
-    - [ ] Using the model in our handlers
-    - [ ] Additional information
-      - [ ] Checking for specific errors
-      - [ ] Shorthand single-record queries
+  - [x] Executing SQL statements
+    - [x] Executing the query
+    - [x] Using the model in our handlers
+    - [x] Additional information
+      - [x] Placeholder parameters
+  - [x] Single-record SQL queries
+    - [x] Using the model in our handlers
+    - [x] Additional information
+      - [x] Checking for specific errors
+      - [x] Shorthand single-record queries
   - [ ] Multiple-record SQL queries
     - [ ] Using the model in our handlers
   - [ ] Transactions and other details
