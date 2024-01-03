@@ -121,4 +121,35 @@ E depois, entrar com os dados de usuário e senha.
 sudo mysql -u root -p
 ```
 
+Em caso de usar, sem ser o root, basta executar o seguinte comando:
+
+```bash
+mysql -D snippetbox -u web -p
+```
+
 Estaremos usando o driver do MySQL para Go: **[mysql](https://pkg.go.dev/github.com/go-sql-driver/mysql)**
+
+## Shorthand single-record queries
+
+Para fazer uma query de um único registro, podemos usar o método `QueryRow()`.
+
+Exemplo:
+
+* snippets.go (método `Get()`)
+
+```go
+func (m *SnippetModel) Get(id int) (Snippet, error) {
+    var s Snippet
+    
+    err := m.DB.QueryRow("SELECT ...", id).Scan(&s.ID, &s.Title, &s.Content, &s.Created, &s.Expires)
+    if err != nil {
+        if errors.Is(err, sql.ErrNoRows) {
+            return Snippet{}, ErrNoRecord
+        } else {
+             return Snippet{}, err
+        }
+    }
+
+    return s, nil
+}
+```
