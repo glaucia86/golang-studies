@@ -1,7 +1,7 @@
 /**
  * file: cmd/web/handlers.go
  * description: file responsible for handling the routes of the application.
- * data: 12/27/2023
+ * data: 01/02/2024
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
@@ -59,5 +59,15 @@ func (app *application) snippetCreate(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write([]byte("Create a new snippet"))
+	title := "O snail"
+	content := "O snail\nClimb Mount Fuji,\nBut slowly, slowly!\n\n– Kobayashi Issa"
+	expires := 7
+
+	id, err := app.snippets.Insert(title, content, expires)
+	if err != nil {
+		app.serverError(w, r, err)
+		return
+	}
+
+	http.Redirect(w, r, fmt.Sprintf("/snippet/view?id=%d", id), http.StatusSeeOther)
 }
