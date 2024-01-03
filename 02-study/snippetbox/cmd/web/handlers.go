@@ -8,10 +8,13 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"html/template"
 	"net/http"
 	"strconv"
+
+	"github.com/glaucia86/snippetbox/internal/models"
 )
 
 func (app *application) home(w http.ResponseWriter, r *http.Request) {
@@ -42,14 +45,24 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 
 func (app *application) snippetView(w http.ResponseWriter, r *http.Request) {
 	id, err := strconv.Atoi(r.URL.Query().Get("id"))
+		if err != nil || id < 1 {
+			app.notFound(w)
+			return
+		}
 
-	if err != nil || id < 1 {
-		app.notFound(w)
-		return
+		snippet, err := app.snippets.Get(id)
+		if err != nil {
+			if errors.Is(err, models.ErrNoRecord) {
+				app.notFound(w)
+			} else {
+				app.serverError(w, r, err)
+			}
+
+			return
+		}
+
+		fmt.Fprintf(w, "%v", snippet)
 	}
-
-	fmt.Fprintf(w, "Display a specific snippet with ID %d...", id)
-}
 
 func (app *application) snippetCreate(w http.ResponseWriter, r *http.Request) {
 
