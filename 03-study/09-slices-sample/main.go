@@ -23,7 +23,7 @@ func main() {
 	fmt.Println(s)
 
 	slices.Delete(s, 1, 2)
-	fmt.Println(s) 
+	fmt.Println(s)
 
 	// fmt.Println(s[1]) // Espresso
 	// s[1] = "Mocha"
@@ -31,5 +31,4 @@ func main() {
 
 	// s2 := s
 	// fmt.Println(s, s2)
-
 }

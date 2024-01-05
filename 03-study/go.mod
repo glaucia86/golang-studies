@@ -1,4 +1,4 @@
-module demo
+module github.com/glaucia86/03-study
 
 go 1.21.0
 
