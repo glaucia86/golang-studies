@@ -156,13 +156,13 @@ And if you want to see the compiled project, you can use the command:
     - [x] Additional information
       - [x] Checking for specific errors
       - [x] Shorthand single-record queries
-  - [ ] Multiple-record SQL queries
-    - [ ] Using the model in our handlers
-  - [ ] Transactions and other details
-    - [ ] The `database/sql` package
-    - [ ] Verbosity
-    - [ ] Managing null values
-    - [ ] Working with transactions
-    - [ ] Prepared statements
+  - [x] Multiple-record SQL queries
+    - [x] Using the model in our handlers
+  - [x] Transactions and other details
+    - [x] The `database/sql` package
+    - [x] Verbosity
+    - [x] Managing null values
+    - [x] Working with transactions
+    - [x] Prepared statements
 - [ ] Dynamic HTML templates
   
