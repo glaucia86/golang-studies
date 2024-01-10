@@ -1,7 +1,7 @@
 /**
  * file: main.go
  * description: file responsible for running the application.
- * data: 01/04/2024
+ * data: 01/10/2024
  * author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
 
