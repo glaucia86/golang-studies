@@ -42,18 +42,18 @@
   - [x] Demo: Building a Web Service
   - [x] Demo: Debugging a Program
   - [x] Summary
-- [ ] Aggregate Data Types
-  - [ ] Introduction
-  - [ ] Concept: Array Types
-  - [ ] Creating and Using Arrays
-  - [ ] Demo: Arrays
-  - [ ] Concept: Slice Types
-  - [ ] Creating and Using Slices
-  - [ ] Demo: Slices
-  - [ ] Concept: Map Types
-  - [ ] Creating and Using Maps
-  - [ ] Demo: Maps
-  - [ ] Concept: Struct Types
-  - [ ] Creating and Using Structs
-  - [ ] Demo: Structs
-  - [ ] Summary
+- [x] Aggregate Data Types
+  - [x] Introduction
+  - [x] Concept: Array Types
+  - [x] Creating and Using Arrays
+  - [x] Demo: Arrays
+  - [x] Concept: Slice Types
+  - [x] Creating and Using Slices
+  - [x] Demo: Slices
+  - [x] Concept: Map Types
+  - [x] Creating and Using Maps
+  - [x] Demo: Maps
+  - [x] Concept: Struct Types
+  - [x] Creating and Using Structs
+  - [x] Demo: Structs
+  - [x] Summary
